@@ -1,0 +1,23 @@
+# Dados: o notebook baixa da fonte original (requisito do trabalho)
+data/
+*.csv
+*.parquet
+*.zip
+
+# Modelos treinados (gerados pelo notebook)
+modelos/
+*_model/
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Credenciais
+kaggle.json
+.env
+
+# Python / Jupyter
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
